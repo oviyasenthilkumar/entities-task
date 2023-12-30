@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="images/fam.jpg" rel="icon" type="image/jpg">
+	<style>
+		form,div{
+			padding:20px;
+		}
+		label{
+			margin-left:20px;
+		}
+		input{
+			margin-left:50px;	
+		}
+		ul{
+			list-style-image:url(images/happy.jpg);			
+		}
+	</style>
+	<title>entities</title>
+</head>
+<body>
+<form>
+	<div>
+		<label for="fname">	<i class="fa fa-user" aria-hidden="true"></i> Username</label>
+		<input type="text" id="fname">
+	</div>
+	<div>
+		<label for="no."> <i class="fa fa-phone" aria-hidden="true"></i> mobile no:</label>
+		<input type="tel" id="no.">
+	</div>
+	<div>
+		<label for="id"> <i class="fa fa-id-card" aria-hidden="true"></i> Roll no.</label>
+		<input type="text" id="id">
+	</div>
+	<div>
+		<label for="temperature"> <i class="fa fa-thermometer-quarter" aria-hidden="true"></i> temperature</label>
+		<input type="number" id="temperature">
+	</div>
+	<div>
+		<label for="city"> <i class="fa fa-globe" aria-hidden="true"></i> Native place:</label>
+		<input type="text" id="city">
+	</div>
+	<div>
+		<label for="address"> <i class="fa fa-address-book-o" aria-hidden="true"></i> Address</label>
+		<textarea  name="address" id="address" cols="50" rows="5"></textarea>
+	</div>
+	<div>
+		<label for="time"> <i class="fa fa-clock-o" aria-hidden="true"></i> time : </label>
+		<input type="time" id="time">
+	</div>
+	<div>
+		<label for="insta"><i class="fa fa-instagram" aria-hidden="true"></i>  Instagram Id:</label>
+		<input type="text" id="insta">
+	</div>
+		<div>
+		<label for="url"><i class="fa fa-chrome" aria-hidden="true"></i> Your website Url:</label>
+		<input type="url" id="url">
+	</div>
+		<div>
+		<label for="Mail"><i class="fa fa-envelope-o" aria-hidden="true"></i> Mail Id : </label>
+		<input type="email" id="Mail">
+	</div>
+	</div>
+		<div>
+		<label for="meeting time"><i class="fa fa-clock-o" aria-hidden="true"></i> Meeting time:</label>
+		<input type="datetime-local" id="meeting-time" name="meeting-time" value="2023-12-23T10:30">
+	</div>
+	<div style="display:inline;">
+		<label> &#128512; fav app:</label>
+		<div style="display:inline">
+			<ul type="none">
+				<li><input type="radio" name="fav app"><i class="fa fa-whatsapp" aria-hidden="true"></i> whatsapp</li><br>
+				<li><input type="radio" name="fav app"><i class="fa fa-twitter" aria-hidden="true"></i> twitter</li><br>
+				<li><input type="radio" name="fav app"><i class="fa fa-snapchat-square" aria-hidden="true"></i>snapchat</li><br>
+				<li><input type="radio" name="fav app"><i class="fa fa-facebook-square" aria-hidden="true"></i>facebook</li><br>
+			</ul>
+		</div>
+	</div>
+	<div>
+		<input type="submit">
+	</div>
+</form>
+</body>
+</html>
